@@ -36,7 +36,7 @@ const MenuSection = () => {
             <div className="hidden lg:block p-10 lg:m-10 rounded-[40px] flex-col">
                 <div className="flex gap-10">
 
-                    <div className="h-[544px] w-[656px] md:w-[600px] lg:w-[550px] rounded-[24px] shadow-lg relative overflow-hidden bg-[url('foodLoverTextBg.png')] bg-cover bg-center">
+                    <div className="h-[544px] w-[656px] md:w-[600px] lg:w-[550px] rounded-[24px] shadow-lg relative overflow-hidden bg-[url('DHAPopularBg.png')] bg-cover bg-center">
                         {/* Top Label */}
                         <div className="absolute top-7 left-10">
                             <div className="border border-white rounded-full px-4 py-1 text-sm font-medium tracking-wide text-white">
@@ -51,7 +51,7 @@ const MenuSection = () => {
 
                         {/* Center Text */}
                         <div className="mt-20 ps-12">
-                            <h1 className="text-[67px] font-bold leading-tight tracking-wide text-white font-Dongle" style={{ fontFamily: '"Playfair Display", serif' }}>
+                            <h1 className="text-[67px] font-bold leading-tight tracking-wide text-black/70 font-Dongle" style={{ fontFamily: '"Playfair Display", serif' }}>
                                 FOOD <br /> LOVER’S <br /> PARADISE
                             </h1>
                             <button onClick={handleMenuButton} className="cursor-pointer bg-black text-white font-medium px-9 py-4 text-2xl rounded-full mt-16 hover:bg-gray-800 transition">
